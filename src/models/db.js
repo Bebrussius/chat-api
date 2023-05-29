@@ -38,4 +38,4 @@ let updateOne = async (collection, object, param) => {
 }
 
 
-module.exports = { findAll }
+module.exports = { findAll, insertOne, findOne, updateOne}

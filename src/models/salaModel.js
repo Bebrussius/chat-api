@@ -27,4 +27,4 @@ let buscarMensagens = async (idsala, timestamp) => {
 }
 
 
-module.exports = { listarSalas };
+module.exports = { listarSalas, buscarSala, atualizarMensagens, buscarMensagens};
